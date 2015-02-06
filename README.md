@@ -2,14 +2,14 @@
 Flower.
 
 #Install
-'$ npm install craft-flower'
+`$ npm install craft-flower`
 
 #Example
-'''html
+```html
 <craft>
 	<craft name="flower" module="craft-flower">
 	<flower numberOfPetals="15"></flower>
 </craft>
-'''
+```
 
-![example]example.png
+![example](example.png)

@@ -54,37 +54,37 @@
 29 silly publish   homepage: 'https://github.com/dria7226/craft-flower',
 29 silly publish   readme: '# craft-flower\nFlower.\n\n#Install\n\'$ npm install craft-flower\'\n\n#Example\n\'\'\'html\n<craft>\n\t<craft name="flower" module="craft-flower">\n\t<flower numberOfPetals="15"></flower>\n</craft>\n\'\'\'\n\n![example]example.png\n',
 29 silly publish   readmeFilename: 'README.md',
-29 silly publish   gitHead: 'aa50fa6a36e2b6dd937dd93b91df817b03304898',
+29 silly publish   gitHead: '16e617f33d01028458ef999eee1fa7755ca7955f',
 29 silly publish   _id: 'craft-flower@1.0.0',
 29 silly publish   _shasum: 'ae47624f456d1a12de13a9a982faf5fee6315080',
 29 silly publish   _from: '.' }
 30 verbose request where is /craft-flower
 31 verbose request registry https://registry.npmjs.org/
-32 verbose request id 23a015417d70d64d
+32 verbose request id aa01b5b9191d1b73
 33 verbose url raw /craft-flower
 34 verbose url resolving [ 'https://registry.npmjs.org/', './craft-flower' ]
 35 verbose url resolved https://registry.npmjs.org/craft-flower
 36 verbose request where is https://registry.npmjs.org/craft-flower
-37 info trying registry request attempt 1 at 16:31:15
+37 info trying registry request attempt 1 at 16:39:27
 38 http PUT https://registry.npmjs.org/craft-flower
 39 http 403 https://registry.npmjs.org/craft-flower
-40 verbose headers { date: 'Fri, 06 Feb 2015 23:31:32 GMT',
+40 verbose headers { date: 'Fri, 06 Feb 2015 23:39:42 GMT',
 40 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
 40 verbose headers   'content-type': 'application/json',
 40 verbose headers   'cache-control': 'max-age=60',
 40 verbose headers   'content-length': '2388',
 40 verbose headers   'accept-ranges': 'bytes',
 40 verbose headers   via: '1.1 varnish',
-40 verbose headers   'x-served-by': 'cache-lax1429-LAX',
+40 verbose headers   'x-served-by': 'cache-ord1733-ORD',
 40 verbose headers   'x-cache': 'MISS',
 40 verbose headers   'x-cache-hits': '0',
-40 verbose headers   'x-timer': 'S1423265480.425228,VS0,VE12328',
+40 verbose headers   'x-timer': 'S1423265971.946913,VS0,VE10720',
 40 verbose headers   'keep-alive': 'timeout=10, max=50',
 40 verbose headers   connection: 'Keep-Alive' }
 41 error publish Failed PUT 403
 42 error Error: forbidden cannot modify pre-existing version: 1.0.0
 42 error old={"name":"craft-flower","version":"1.0.0","description":"Flower","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/dria7226/craft-flower"},"keywords":["flower"],"author":{"name":"Dragos Iarovoi"},"license":"ISC","bugs":{"url":"https://github.com/dria7226/craft-flower/issues"},"homepage":"https://github.com/dria7226/craft-flower","gitHead":"aa50fa6a36e2b6dd937dd93b91df817b03304898","_id":"craft-flower@1.0.0","_shasum":"62e667d8ef49dec5f7190219e914235ff5053308","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"dria7226","email":"dria7226@colorado.edu"},"maintainers":[{"name":"dria7226","email":"dria7226@colorado.edu"}],"dist":{"shasum":"62e667d8ef49dec5f7190219e914235ff5053308","tarball":"http://registry.npmjs.org/craft-flower/-/craft-flower-1.0.0.tgz"}}
-42 error new={"name":"craft-flower","version":"1.0.0","description":"Flower","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/dria7226/craft-flower"},"keywords":["flower"],"author":{"name":"Dragos Iarovoi"},"license":"ISC","bugs":{"url":"https://github.com/dria7226/craft-flower/issues"},"homepage":"https://github.com/dria7226/craft-flower","readme":"# craft-flower\u000aFlower.\u000a\u000a#Install\u000a'$ npm install craft-flower'\u000a\u000a#Example\u000a'''html\u000a<craft>\u000a\u0009<craft name=\"flower\" module=\"craft-flower\">\u000a\u0009<flower numberOfPetals=\"15\"></flower>\u000a</craft>\u000a'''\u000a\u000a![example]example.png\u000a","readmeFilename":"README.md","gitHead":"aa50fa6a36e2b6dd937dd93b91df817b03304898","_id":"craft-flower@1.0.0","_shasum":"ae47624f456d1a12de13a9a982faf5fee6315080","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"dria7226","email":"dria7226@colorado.edu"},"maintainers":[{"name":"dria7226","email":"dria7226@colorado.edu"}],"dist":{"shasum":"ae47624f456d1a12de13a9a982faf5fee6315080","tarball":"http://registry.npmjs.org/craft-flower/-/craft-flower-1.0.0.tgz"}}: craft-flower
+42 error new={"name":"craft-flower","version":"1.0.0","description":"Flower","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/dria7226/craft-flower"},"keywords":["flower"],"author":{"name":"Dragos Iarovoi"},"license":"ISC","bugs":{"url":"https://github.com/dria7226/craft-flower/issues"},"homepage":"https://github.com/dria7226/craft-flower","readme":"# craft-flower\u000aFlower.\u000a\u000a#Install\u000a'$ npm install craft-flower'\u000a\u000a#Example\u000a'''html\u000a<craft>\u000a\u0009<craft name=\"flower\" module=\"craft-flower\">\u000a\u0009<flower numberOfPetals=\"15\"></flower>\u000a</craft>\u000a'''\u000a\u000a![example]example.png\u000a","readmeFilename":"README.md","gitHead":"16e617f33d01028458ef999eee1fa7755ca7955f","_id":"craft-flower@1.0.0","_shasum":"ae47624f456d1a12de13a9a982faf5fee6315080","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"dria7226","email":"dria7226@colorado.edu"},"maintainers":[{"name":"dria7226","email":"dria7226@colorado.edu"}],"dist":{"shasum":"ae47624f456d1a12de13a9a982faf5fee6315080","tarball":"http://registry.npmjs.org/craft-flower/-/craft-flower-1.0.0.tgz"}}: craft-flower
 42 error     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:308:14)
 42 error     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:246:65)
 42 error     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:236:22)
