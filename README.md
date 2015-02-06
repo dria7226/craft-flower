@@ -5,9 +5,9 @@ Flower.
 `$ npm install craft-flower`
 
 #Parameters
-`numberOfPetals - determines the number of petals.`
-`petalLength - determines the length of a petal`
-`flowerRadius - determines the radius of the flower bud`
+`numberOfPetals - determines the number of petals.
+petalLength - determines the length of a petal.
+flowerRadius - determines the radius of the flower bud.`
 
 #Example
 ```html
