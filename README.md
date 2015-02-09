@@ -1,18 +1,20 @@
 # craft-flower
 Flower.
 
-#Install
+# Install
 `$ npm install craft-flower`
 
-#Parameters
-`numberOfPetals - determines the number of petals. \n
-petalLength - determines the length of a petal. \n
-flowerRadius - determines the radius of the flower bud.`
+# Parameters
+```sh
+numberOfPetals - determines the number of petals.
+petalLength - determines the length of a petal.
+flowerRadius - determines the radius of the flower bud.
+```
 
-#Example
+# Example
 ```html
 <craft>
-	<craft name="flower" module="craft-flower">
+	<craft name="flower" module="craft-flower"/>
 	<flower numberOfPetals="15"></flower>
 </craft>
 ```
