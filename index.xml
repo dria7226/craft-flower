@@ -1,15 +1,15 @@
 <craft name="flower">
 	<parameter name="petalLength"  type="int"   default="2"/>
-	<parameter name="centerRadius" type="float" default="1"/>
+	<parameter name="centerRadius" type="int" default="1"/>
 	<script type="text/openjscad">
 	function main(params)
 	{
 		//vars
 	    var petal_length = params.petalLength || 2;
-	    if(petal_length < 0) petal_length = 2;
+	    if(petal_length <= 0) petal_length = 2;
 
 	    var center_radius = params.centerRadius || 1;
-	    if(center_radius < 0) center_radius = 1;
+	    if(center_radius <= 0) center_radius = 1;
 
 	    var min = Math.ceil(4 * Math.PI * center_radius/petal_length);
 	    var max = Math.floor(8 * Math.PI * center_radius/petal_length);
@@ -19,7 +19,8 @@
 
 	    //-----------------------
 
-	    var c = difference(sphere().scale([1,1,0.3]) , sphere().scale([1,1,0.3]).translate([0,0,0.4]));
+	    var c = sphere().scale([1,1,0.3]);
+	    c = difference(c , c.translate([0,0,0.4]));
 
 	    c = c.scale(center_radius);
 
